@@ -12,7 +12,7 @@ function mensagem(){
     if (text.length > 0){
         document.getElementById("btnTwitar").disabled = false;     
     }
-    if (text.length === 0 || text.length >= 140){
+    if (text.length < 0 || text.length >= 140){
         document.getElementById("btnTwitar").disabled = true;  
     }
     if (tamStr <= 140 && tamStr >=21){
@@ -35,8 +35,8 @@ function twitar() {
 
     let listamsg = document.getElementById('listamsg');
     let text = document.getElementById("msg").value;
-    let post = document.createElement('p');
-    var newpost = listamsg.getElementsByTagName('p')[0];
+    let post = document.createElement('li');
+    var newpost = listamsg.getElementsByTagName('li')[0];
     let newpostText = document.createTextNode(text +" // "+ time());
     post.appendChild(newpostText);
     listamsg.appendChild(post);
