@@ -15,11 +15,11 @@ function mensagem(){
     if (text.length === 0 || text.length >= 140){
         document.getElementById("btnTwitar").disabled = true;  
     }
-    if (tamStr <= 140 && tamStr >=20){
+    if (tamStr <= 140 && tamStr >=21){
         document.getElementById('count').style.color = "#8B3E2F"; 
     } 
     
-    if (tamStr <= 19 && tamStr >=10){
+    if (tamStr <= 19 && tamStr >=11){
         document.getElementById('count').style.color = "orange"; 
     } 
     if (tamStr <= 9){
