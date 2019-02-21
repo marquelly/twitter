@@ -1,0 +1,79 @@
+header img{
+    width: 200px; 
+    height: 200px;
+    padding: 20px; 
+}    
+
+header{
+    display: flex;  
+    justify-content: center; 
+}
+
+#count{
+    margin: 0px; 
+    font-family: 'Medula One', cursive;
+    color: #8B3E2F; 
+    font-size: 30px; 
+}   
+
+body{
+    background-image: url("img/back3.png");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    font-size:25px; 
+    margin: 10px; 
+}
+
+#listamsg{
+    list-style: none; 
+    padding: 0%; 
+}
+.form{
+    display: flex; 
+    align-items: center; 
+    flex-direction: column;   
+}
+
+textarea{
+    resize: auto; 
+    overflow: hidden;
+    border-radius: 5px; 
+    width: 550px; 
+    height: auto; 
+    font-size: 17px; 
+    font-family: cursive;
+    color: #8B3E2F; 
+}
+
+
+div p {
+    background-color: white; 
+    border-radius: 5px; 
+    width: 550px; 
+    height: auto;
+    word-wrap: break-word;
+    margin: 10px 0px;
+    justify-content: center; 
+    font-family: cursive;
+    font-size: 25px; 
+    padding: 10px; 
+    color: #8B3E2F; 
+}
+
+button{
+    border-radius: 5px; 
+    width: 120px; 
+    height: 40px; 
+    font-family: 'Medula One', cursive;
+    font-size: 30px; 
+    color: #8B3E2F; 
+    background-color: white; 
+}
+
+.form div {
+    display: flex; 
+    justify-content:space-between; 
+}
+

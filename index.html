@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two|Medula+One" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title >Twitter</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/tweet.png" alt="Twitter">
+    </header>
+    <main>
+        <div class="form">
+            <form>
+                <textarea rows="5" placeholder="digite sua msg" id="msg"  onkeydown="autoResize()"> </textarea>
+                <div>
+                <h3 id="count"> </h3>
+                <button id="btnTwitar" disabled="disable" >TWITAR</button>  
+                </div>  
+            </form>
+            <ul id="listamsg"></ul>
+        </div>
+    </main>
+<script src="app.js"></script>
+</body>
+
+</html>
